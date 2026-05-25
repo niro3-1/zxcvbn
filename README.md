@@ -1,12 +1,10 @@
 # zxcvbn
 
-Low-Budget Password Strength Estimation
+A password strength estimator.
 
-## Latest Release
+## Latest Version
 
-**Version:** v4.4.2  
-**Release Date:** 2017-02-07  
-**Changelog:** - minor bug fixes
+- Version: v4.4.2
 
 ## Installation
 
@@ -19,6 +17,6 @@ npm install zxcvbn
 ```javascript
 import zxcvbn from 'zxcvbn';
 
-const result = zxcvbn('password');
+const result = zxcvbn('your-password');
 console.log(result);
 ```
