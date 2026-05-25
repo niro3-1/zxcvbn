@@ -1,22 +1,24 @@
-# zxcvbn - Low-Budget Password Strength Estimation
+# zxcvbn
 
-[![npm version](https://badge.fury.io/js/zxcvbn.svg)](https://badge.fury.io/js/zxcvbn)
+Low-Budget Password Strength Estimation
 
-## Upgrade
+## Latest Release
 
-- Upgraded to latest version.
-
-### Changes
-- Minor updates and improvements.
+**Version:** v4.4.2  
+**Release Date:** 2017-02-07  
+**Changelog:** - minor bug fixes
 
 ## Installation
 
 ```bash
-npm install zxcvbn@latest
+npm install zxcvbn
 ```
 
 ## Usage
 
 ```javascript
 import zxcvbn from 'zxcvbn';
+
+const result = zxcvbn('password');
+console.log(result);
 ```
